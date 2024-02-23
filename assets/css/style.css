@@ -114,6 +114,12 @@ header li:last-child
     color: white;
 }
 
+#bouton-plus a:hover 
+{
+    color: black;
+}
+
+
 #section-actu
 {
     height: 615px;
@@ -134,7 +140,18 @@ header li:last-child
     width: 280px;
     height: 440px; 
     margin:15px;
+    box-shadow: 6px 6px 3px black;
+
+    transition: all 0.5s ease-in-out;
 }
+
+.card:hover
+{
+
+    transform: translate(4px,4px);
+    box-shadow: 2px 2px 2px black;
+}
+
 
 .card img
 {
@@ -172,7 +189,7 @@ header li:last-child
     width: 230px;
     height: 35px;
     border-radius: 6px;
-    
+    border:none;
     padding-left:6px;
 }
 
@@ -187,6 +204,11 @@ header li:last-child
     margin-left: 5px;
 }
 
+#bouton:hover
+{
+    color:black;
+}
+
 footer
 {
     height: 50px;
@@ -199,6 +221,11 @@ footer
 footer li
 {
     border-right:2px solid white;
+}
+
+nav a:hover
+{
+    color:  rgb(181, 2, 2);
 }
 
 footer li:last-child
