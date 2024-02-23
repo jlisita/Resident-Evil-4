@@ -65,9 +65,9 @@ header li:last-child
     color: White;
     background-image: url(../img/banner.jpg);
     background-size: cover;
+    background-position: center;
     text-align: center;
     font-size: 30px;
-
 
     width: 100%;
     height: 440px;
@@ -119,17 +119,13 @@ header li:last-child
     color: black;
 }
 
-
-#section-actu
-{
-    height: 615px;
-}
-
 #cards
 {
     display: flex;
     justify-content: center;
-    padding:15px;
+    flex-wrap: wrap;
+    padding-top:15px;
+    padding-bottom:60px;
 
 }
 
@@ -147,7 +143,6 @@ header li:last-child
 
 .card:hover
 {
-
     transform: translate(4px,4px);
     box-shadow: 2px 2px 2px black;
 }
@@ -211,7 +206,6 @@ header li:last-child
 
 footer
 {
-    height: 50px;
     background-color: black;
     padding:15px;
     display: flex;
